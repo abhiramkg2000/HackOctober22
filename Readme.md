@@ -198,8 +198,5 @@ Then add a title and description to your pull request that explains your preciou
 
 
 
-<div>
-<img width="450" alt="Hfest-Logo-2-Color-Manga@2x" src="https://user-images.githubusercontent.com/50301680/190843354-4c5210b2-e9c2-499c-b6ce-64f844391997.png">
-<img width="450" alt="Hfest-Logo-2-Color-Void@2x" src="https://user-images.githubusercontent.com/50301680/190843358-70b39a0b-37de-4a03-b967-51725aba62ff.png">
-</div>
+
 <img width="2400" alt="Email Banners-Lite" src="https://user-images.githubusercontent.com/50301680/190843393-c1177849-7870-4c43-bd8b-02f680cf6e03.png">

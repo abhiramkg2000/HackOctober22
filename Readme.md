@@ -100,14 +100,6 @@ origin    https://github.com/Your_Username/HackOctober22.git (push)
 upstream  https://github.com/Remote_Username/HackOctober22.git (fetch)
 upstream  https://github.com/Remote_Username/HackOctober22.git (push)
 ```
-`In your case, you will see`
-```sh
-$ git remote -V
-origin    https://github.com/Your_Username/HackOctober22.git (fetch)
-origin    https://github.com/Your_Username/HackOctober22.git (push)
-upstream  https://github.com/kishanrajput23/HackOctober22.git (fetch)
-upstream  https://github.com/kishanrajput23/HackOctober22.git (push)
-```
 
 ### 4. Sync it :recycle:
 
@@ -124,7 +116,7 @@ $ git checkout main
 # Reset local `main` branch to match the `upstream` repository's `main` branch
 $ git reset --hard upstream/main
 
-# Push changes to your forked `Hacktoberfest-2021` repo
+# Push changes to your forked `HackOctober22` repo
 $ git push origin main
 ```
 

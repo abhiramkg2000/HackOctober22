@@ -72,6 +72,7 @@ $ cd HackOctober22
 ```
 
 Move to this folder for all other commands.
+If the programming language is not present please create a new folder.
 
 ### 3. Set it up :arrow_up:
 

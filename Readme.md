@@ -71,8 +71,7 @@ Once you have cloned the `HackOctober22` repository in Github, move to that fold
 $ cd HackOctober22
 ```
 
-Move to this folder for all other commands.
-If the programming language is not present please create a new folder.
+Move to this folder for all other commands.If the programming language is not present please create a new folder.
 
 ### 3. Set it up :arrow_up:
 

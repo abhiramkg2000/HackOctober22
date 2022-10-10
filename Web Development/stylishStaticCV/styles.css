@@ -1,0 +1,186 @@
+/*
+Change the color attributes if you prefer a different vibe.
+Two sets for you -
+
+#000000-PINK :
+Replace #FF9F29 with #FB2576
+Replace #37AA9C with #FF99D7
+Replace #94F3E4 with #A7FFE4
+
+White-Mode :
+Replace #000000 with #FEFBF6
+Replace white with #3D3C42
+Replace #37AA9C with #A6D1E6
+Replace #FF9F29 with #7F5283
+
+You can find more on https://colorhunt.co/
+
+Play arround with positions, display and font families and even class names if you are
+up for a challenge.
+*/
+
+body{
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+h1{
+    color : #FF9F29;
+    font-family: 'Montserrat', cursive;
+    position: relative;
+    z-index: 1;
+    display: block;
+    font-size: 800%;
+    font-family: 'Sacramento', cursive;
+    color:#37AA9C;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+h2{
+    color : #FF9F29;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #94F3E4;
+}
+
+p{
+    color: #94F3E4;
+}
+
+hr {
+    border: 1px dotted white;
+    border-bottom: none;
+    width: 5%;
+    border-width: 10px;
+    margin: 100px auto;
+  }
+
+.intodev{
+    font-size: 30px;
+}
+
+.top-container{
+    background-color: #000000;
+    text-align: center;
+    padding: 10% 0 0 0;
+}
+
+.middle-container{
+    text-align: center;
+}
+
+.profile{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+
+.profile-pic{
+    color: white;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.Neon-reel{
+    width: 25%;
+    float: right;
+    padding-left: 25px;
+    margin-right: 25px;
+    color: white;
+}
+
+.code{
+    width: 25%;
+    float: left;
+    padding-right: 25px;
+}
+
+.productivity{
+    width: 25%;
+    float: right;
+    margin-top: 45px ;
+    margin-left: 25px;
+}
+
+.bottom-container{
+    text-align: center;
+}
+
+.top-cloud{
+    opacity: 89%;
+    height: auto;
+    width : 190px;
+    position: absolute;
+    left: 63%;
+    top:169px;
+    z-index: 2;
+}
+
+.bottom-cloud{
+    display: block;
+    height: auto;
+    opacity: 95%;
+    width : 220px;
+    position: absolute;
+    left: 25%;
+    top:205px;
+    margin-bottom: 0px;
+}
+
+.mountain{
+    width : 500px;
+    height: auto;
+    position: relative;
+    left: 475px;
+    bottom: 25px;
+}
+
+.connect{
+    margin-top: 0px;
+    margin-bottom: 45px;
+    font-size: 15px;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Montserrat;
+    color: white;
+    font-size: 19px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    border: solid #FF9F29 2px;
+    text-decoration: none;
+    margin-bottom: 25px;
+  }
+  
+  .btn:hover {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #4f3d27);
+    background-image: -moz-linear-gradient(top, #000000, #4f3d27);
+    background-image: -ms-linear-gradient(top, #000000, #4f3d27);
+    background-image: -o-linear-gradient(top, #000000, #4f3d27);
+    background-image: linear-gradient(to bottom, #000000, #4f3d27);
+    text-decoration: none;
+  }
+
+  .ending{
+    margin-top: 45px;
+    background-color: #FF9F29;
+    height: 110px;
+}
+
+.links{
+    color: black;
+    font-family: Montserrat;
+}
+  

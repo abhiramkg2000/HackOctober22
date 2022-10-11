@@ -1,0 +1,72 @@
+/*
+To use in personal projects try changing the following attributes for better integration : 
+
+body {
+    min-height, max-width
+    padding and margins
+}
+
+.tabs label{
+    padding, margins
+}
+*/
+
+:root{
+    --box-shadow:0 1px 10px rgba(0,0,0,0.5) , 
+    0 1px 10px rgba(0,0,0,0.5);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: #000000;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-top: 10vh;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 60rem;
+    margin: 0 auto;
+    font-size: 112%;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Outfit', sans-serif;
+}
+
+.tabs label {
+    order: 1;
+    display: block;
+    padding: 1rem 2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background: #fff;
+    font-weight: bold;
+    transition: ease 0.2s;
+    border-radius: 10px 10px 0 0;
+}
+
+.tabs .tab {
+    order: 99;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs input[type="radio"]:checked+label {
+    background-color: #FF9F29;
+}
+
+.tabs input[type="radio"]:checked+label+.tab {
+    display: block;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel = "stylesheet" href = "style.css"> 
+</head>
+<body>
+    <div class = "mainCont">
+        <h1>Expense Tracker</h1>
+        <h2>Your Balance</h2>
+        <p id = "balance">₹00.00</p>
+
+        <div class = "transCont">
+
+            <div class = "income">
+                <h3>Income</h3>
+                <p id = "credit">₹00.00</p>
+            </div>
+
+            <div class="expense">
+                <h3 class="expense">Expense</h3>
+                <p id = "debit">₹00.00</p>
+            </div> 
+
+        </div>
+        
+        <div class="histCont">
+            <h3>History</h3>
+            <ul id = "allRecs">
+                <li class="recDebit">
+                </li>
+            </ul>
+        </div>
+
+        <div class="console">
+            <h3>Add New Transaction</h3>
+            <form id = "form">
+                <div class = "detCont">
+                    <label for="details">Reason</label>
+                    <input type="text" id="details" placeholder="Your Details Here :)">
+                </div>
+                <div class = "amtCont">
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" placeholder="Your Amount Here :)">
+                </div>
+                <button class="exec" type="submit">Add Transaction</button>
+            </form>
+        </div>
+        <script src = "./script.js"></script>
+    </div>
+</body>
+</html>

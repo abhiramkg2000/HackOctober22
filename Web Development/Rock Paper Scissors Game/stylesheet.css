@@ -4,14 +4,17 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
+    
 }
 
 body{
     height:100vh;
-    background:linear-gradient(135deg, #ffcf1b, #ff8b1b);
+    background:linear-gradient(135deg, hsl(49, 100%, 54%), #d3965d);
 }
 
 .container{
+    background-image:url("download.jpg");
+    
     width:45%;
     min-width:500px;
     background-color:#ffffff;
@@ -20,8 +23,14 @@ body{
     transform:translate(-50%,-50%);
     top:50%;
     left:50%;
-    border-radius:10px;
+    border-radius:95px;
     box-shadow:0 15px 25px rgba(0,0,0,0.15);
+   
+}
+.container:hover
+{
+   
+    box-shadow: 0 0 20px hsl(49, 86%, 61%),0 0 20px #ffd51b,0 0 20px hsl(49, 86%, 61%);
 }
 
 .scores{
@@ -47,6 +56,10 @@ body{
     outline:none;
     cursor:pointer;
 }
+.weapons button:hover
+{
+    box-shadow: 0 0 20px hsl(49, 86%, 61%),0 0 20px #ffd51b,0 0 20px hsl(49, 86%, 61%);
+}
 
 .details{
     margin-top:30px;
@@ -66,6 +79,7 @@ body{
     margin:30px auto;
     font-weight:600;
     letter-spacing:0.5px;
+    border-radius: 10px;
 }
 
 #user_choice,

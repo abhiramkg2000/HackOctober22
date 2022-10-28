@@ -1,0 +1,40 @@
+#Q.Write a recursive python function which returns True if the input is well-formatted with respect to the list labels. Else it should return False.
+
+#We say that an input is well-formatted with respect to the labels if:
+#(a) input item is a list 
+#(b) input item has length at least two 
+#(c) input’s first item is in the list labels 
+#(d) each of the remaining items in input is either a string or a well-formatted list 
+
+
+def check_well_formatted(input_item,list_label):
+ 
+    if isinstance(input_item, list)== False:
+     return False
+    
+    if isinstance(input_item, list):
+     flag=False
+     if len(input_item)<2:
+      return False
+     if input_item[0] not in list_label:
+      return False
+     for i in range(1,len(input_item)):
+      if isinstance(input_item[i] , list):
+         flag = check_well_formatted(input_item[i],list_label)
+         if flag==False:
+          return False
+      elif isinstance(input_item[i] , str)== False:
+        return False
+      else:
+        flag = True
+     return flag
+    
+
+
+input_list1=['VP', ['V', 'eat']]
+list_label1=['VP', 'V']
+result=check_well_formatted(input_list1,list_label1)
+if result is True:
+    print("Well formatted")
+else:
+    print("Not Well formatted")

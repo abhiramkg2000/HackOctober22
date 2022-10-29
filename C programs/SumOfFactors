@@ -1,0 +1,15 @@
+//Find the sum of factors of number n
+#include <stdio.h>
+
+int main() {
+	int n,sum=0;
+    scanf("%d", &n);
+    for (int i = 1;i <= n;i++) {
+    	if (n % i == 0) {
+    	    printf("%d ", i);
+    		sum = sum + i;
+    	}
+    }
+	printf("\n Factors of Sum is %d", sum);
+    return 0;
+}
